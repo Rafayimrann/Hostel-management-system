@@ -17,7 +17,7 @@ A three-tier JavaFX + MySQL application implementing the Student and Maintenance
 │              SystemController                        │
 │  (GRASP Controller — single entry point for all UCs)│
 └────────────────────────┬────────────────────────────┘
-                         │  delegates to
+                         │  delegates this to
 ┌────────────────────────▼────────────────────────────┐
 │         DATA / PERSISTENCE LAYER  (JDBC)            │
 │  DBHandler (GRASP Pure Fabrication)                  │
